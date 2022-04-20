@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # alias bpp='source ~/bin/bpp.sh !$'
+# alternate: alias bpp='f() { history -200 | grep $1 | grep -v "bpp" | tail | grep --color $1 };f'
 
 MAX_HISTORY=1000
 NUMBER_CHOICES=10
